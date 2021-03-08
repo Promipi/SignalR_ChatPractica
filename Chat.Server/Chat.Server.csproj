@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="6.0.0-preview.1.21103.6" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="6.0.0-preview.1.21102.12" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "l3wLgC/tQpLx/BpLGFTi9yb2LTd7l9M3Cg7b7p4tNrNv8om7S6TNMeCiEC+SaS6y1QbnuGpO5quPNie77H7C7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Promipi\\source\\repos\\Chat\\Chat.Server\\Chat.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Promipi\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.0-preview.1.21103.6\\microsoft.aspnetcore.connections.abstractions.6.0.0-preview.1.21103.6.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.1.21103.6\\microsoft.aspnetcore.http.features.6.0.0-preview.1.21103.6.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\6.0.0-preview.1.21103.6\\microsoft.aspnetcore.signalr.common.6.0.0-preview.1.21103.6.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0-preview.1.21102.12\\microsoft.extensions.options.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.1.21102.12\\microsoft.extensions.primitives.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.1.21102.12\\system.io.pipelines.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\system.text.encodings.web\\6.0.0-preview.1.21102.12\\system.text.encodings.web.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "C:\\Users\\Promipi\\.nuget\\packages\\system.text.json\\6.0.0-preview.1.21102.12\\system.text.json.6.0.0-preview.1.21102.12.nupkg.sha512"
+  ],
+  "logs": []
+}
