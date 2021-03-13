@@ -16,6 +16,15 @@ namespace Chat.Client
             await connection.StartAsync(); //establecemmos la conexion
 
 
+
+            Console.Write("Digite el grupo al que te uniras : ");
+            var nameGroup = Console.ReadLine();
+
+            await connection.SendAsync("JoinGroup", nameGroup);
+
+            
+
+
             connection.On<string>("AwaitMessage", (message) =>
             {
                 Console.WriteLine(message);
@@ -24,7 +33,7 @@ namespace Chat.Client
             while(true)
             {
                 var message = Console.ReadLine();
-                await connection.SendAsync("SendMessage", message);
+                await connection.SendAsync("SendMessage", message , nameGroup); //enviamos el mensaje
             }
         }
     }

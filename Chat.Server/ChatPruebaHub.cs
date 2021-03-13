@@ -14,10 +14,22 @@ namespace Chat.Server
             return Task.CompletedTask;
         }
 
-        [HubMethodName("SendMessage") ]
-        public async Task SendMessage(string message) //para enviar un mensaje
+        public async Task JoinGroup(string groupName) //para unirnos a un grupo
         {
-            await Clients.Others.SendAsync("AwaitMessage", message);
+            await Groups.AddToGroupAsync(Context.ConnectionId, groupName);
         }
+
+        public async Task ExitGroup(string groupName) //salir de un grupo
+        {
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, groupName);
+        }
+
+        [HubMethodName("SendMessage") ]
+        public async Task SendMessage(string message, string groupName) //enviar mensjae
+        {
+            await Clients.OthersInGroup(groupName).SendAsync("AwaitMessage", message);
+        }
+
+
     }
 }
